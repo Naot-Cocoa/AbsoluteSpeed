@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6f53954f22fe04aaeb3dda5abbd677, type: 3}
+  m_Name: WheelParam
+  m_EditorClassIdentifier: 
+  mWheelData:
+  - mSpeed: 10
+    mGrip: 0.9
+    mDrift: 0
+    mSlick: 0
+  - mSpeed: 20
+    mGrip: 0.8
+    mDrift: 0
+    mSlick: 0
+  - mSpeed: 40
+    mGrip: 0.75
+    mDrift: 0
+    mSlick: 0
+  - mSpeed: 70
+    mGrip: 0.65
+    mDrift: 0
+    mSlick: 0
+  - mSpeed: 100
+    mGrip: 0.4
+    mDrift: 0.3
+    mSlick: 0
+  - mSpeed: 120
+    mGrip: 0.2
+    mDrift: 0.25
+    mSlick: 0
+  - mSpeed: 140
+    mGrip: 0.2
+    mDrift: 0.23
+    mSlick: 0
+  - mSpeed: 160
+    mGrip: 0.2
+    mDrift: 0.1
+    mSlick: 0
+  - mSpeed: 180
+    mGrip: 0.2
+    mDrift: 0.05
+    mSlick: 0
+  - mSpeed: 200
+    mGrip: 0.16
+    mDrift: 0.03
+    mSlick: 0
+  - mSpeed: 220
+    mGrip: 0.04
+    mDrift: 0.03
+    mSlick: 0
+  - mSpeed: 240
+    mGrip: 0.035
+    mDrift: 0.03
+    mSlick: 0
+  - mSpeed: 245
+    mGrip: 0.027
+    mDrift: 0.5
+    mSlick: 0

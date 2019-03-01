@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1decbc5c51a6a40aae998f2c275030, type: 3}
+  m_Name: LowRPM
+  m_EditorClassIdentifier: 
+  Clip: {fileID: 8300000, guid: ef6900730e5476a4c91e086d79174915, type: 3}
+  VolumeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0068416595
+      value: 0.49123383
+      inSlope: 0.42811617
+      outSlope: 0.42811617
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.35242012
+      value: 0.63918155
+      inSlope: 1.8495942
+      outSlope: 1.8495942
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13502483
+    - serializedVersion: 3
+      time: 0.9916992
+      value: 0.4881134
+      inSlope: -3.5382328
+      outSlope: -3.5382328
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15041159
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PitchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.018615723
+      value: 0.49049377
+      inSlope: 0.40605912
+      outSlope: 0.40605912
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.611777
+      value: 0.7313523
+      inSlope: 0.74681747
+      outSlope: 0.74681747
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9997031
+      value: 1.4568546
+      inSlope: 1.8702073
+      outSlope: 1.8702073
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  mIsPlay: 1
+  InRPM: 200
+  OutRPM: 4200

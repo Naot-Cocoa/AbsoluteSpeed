@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d16291832b0c0f34f9fb497d999921cc, type: 3}
+  m_Name: GearParam
+  m_EditorClassIdentifier: 
+  mGearDataBase:
+  - mIndexName: REVERSE
+    mGear: 0
+    mNeedSpeed: 8
+    mMaxSpeed: -60
+    mEngineBrake: 10
+    mEngineRps: 20
+  - mIndexName: NEUTRAL
+    mGear: 1
+    mNeedSpeed: 0
+    mMaxSpeed: 255
+    mEngineBrake: 1
+    mEngineRps: 10
+  - mIndexName: FIRST
+    mGear: 2
+    mNeedSpeed: 0
+    mMaxSpeed: 55
+    mEngineBrake: 3
+    mEngineRps: 4
+  - mIndexName: SECOND
+    mGear: 3
+    mNeedSpeed: 48
+    mMaxSpeed: 89
+    mEngineBrake: 2
+    mEngineRps: 3.5
+  - mIndexName: THIRD
+    mGear: 4
+    mNeedSpeed: 84
+    mMaxSpeed: 120
+    mEngineBrake: 1
+    mEngineRps: 3
+  - mIndexName: FOURTH
+    mGear: 5
+    mNeedSpeed: 110
+    mMaxSpeed: 160
+    mEngineBrake: 0.5
+    mEngineRps: 2
+  - mIndexName: FIFTH
+    mGear: 6
+    mNeedSpeed: 150
+    mMaxSpeed: 200
+    mEngineBrake: 0.099
+    mEngineRps: 2
+  - mIndexName: SIXTH
+    mGear: 7
+    mNeedSpeed: 190
+    mMaxSpeed: 255
+    mEngineBrake: 0.1
+    mEngineRps: 1

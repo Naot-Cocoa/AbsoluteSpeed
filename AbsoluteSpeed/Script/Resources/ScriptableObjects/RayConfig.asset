@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01f0636b1d94074783af79e6b71c7fe, type: 3}
+  m_Name: RayConfig
+  m_EditorClassIdentifier: 
+  mLRRayConfig:
+    mLRLength: 1.35
+    mROffset: {x: 0, y: 1, z: 2}
+    mLOffset: {x: 0, y: 1, z: 2}
+    mCenterOffset: {x: 0, y: 0.6, z: -0.5}
+    mBoxcastSize: {x: 0.1, y: 1, z: 4}
+  mAirRideRayConfig:
+    mFBRayLength: 4.5
+    mLRRayLength: 4.5
+    mUnderRayLength: 9.31
+    mCenterOffset: {x: 0, y: 0.6, z: 0}
+    mBoxSize: {x: 1.7, y: 0.1, z: 4.6}
+    mFBRayAngle: 2
+    mLRRayAngle: 2
+  mDirectionFixRayConfig:
+    mLRLength: 4
+    mForwardBoxcastLength: 0.5
+    mRfOffset: {x: 0.3, y: 0, z: 2}
+    mLfOffset: {x: -0.3, y: 0, z: 2}
+    mForwardOffset: {x: 0, y: 0.5, z: 2.1}
+    mBoxSize: {x: 2.5, y: 1, z: 0.1}
